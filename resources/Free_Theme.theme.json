@@ -1,0 +1,46 @@
+{
+  "name": "Free Theme",
+  "dark": true,
+  "author": "",
+  "editorScheme": "/Free_Theme.xml",
+  "colors": {
+    "bg": "#233142",
+    "border": "#101721",
+    "primary": "#496cf6"
+  },
+  "ui": {
+    "*": {
+      "background": "bg",
+      "borderColor": "border"
+    },
+    "Borders": {
+      "color": "border",
+      "ContrastBorderColor": "border"
+    },
+    "ComboPopup.border": "1,1,1,1,border",
+    "CompletionPopup": {
+      "selectionBackground": "bg"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "bg"
+      }
+    },
+    "EditorTabs": {
+      "underlineColor": "primary",
+      "underlinedTabBackground": "#082032"
+    },
+    "Plugins": {
+      "background": "#162231",
+      "lightSelectionBackground": "#273d57",
+      "hoverBackground": "#345072",
+      "SearchField.background": "#162231"
+    },
+    "Popup": {
+      "Advertiser.background": "#f00"
+    },
+    "ProgressBar": {
+      "passedColor": "primary"
+    }
+  }
+}
