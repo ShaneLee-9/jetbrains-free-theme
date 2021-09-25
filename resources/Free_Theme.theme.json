@@ -5,6 +5,8 @@
   "editorScheme": "/Free_Theme.xml",
   "colors": {
     "bg": "#233142",
+    "hoverBg": "#1c2734",
+    "pressBg": "#141414",
     "border": "#101721",
     "primary": "#496cf6"
   },
@@ -12,6 +14,18 @@
     "*": {
       "background": "bg",
       "borderColor": "border"
+    },
+    "ActionButton": {
+      "hoverBackground": "hoverBg",
+      "hoverBorderColor": "border",
+      "pressedBackground": "pressBg",
+      "pressedBorderColor": "border"
+    },
+    "Autocomplete": {
+      "selectionBackground": "#f00"
+    },
+    "Button": {
+      "arc": 12
     },
     "Borders": {
       "color": "border",
@@ -30,6 +44,8 @@
       "underlineColor": "primary",
       "underlinedTabBackground": "#082032"
     },
+    "List.selectionBackground": "hoverBg",
+    "Menu.separatorColor": "border",
     "Plugins": {
       "background": "#162231",
       "lightSelectionBackground": "#273d57",
@@ -41,6 +57,7 @@
     },
     "ProgressBar": {
       "passedColor": "primary"
-    }
+    },
+    "TextField.selectionBackground": "#f00"
   }
 }
